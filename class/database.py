@@ -8,6 +8,7 @@ class DB:
             user = "root", 
             password = ""
             )
-            
+
         if not self.__db.is_connection():
             print("erro")
+            
